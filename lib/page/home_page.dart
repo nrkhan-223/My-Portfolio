@@ -224,6 +224,7 @@ class HomePage extends GetView<HomeController> {
                       'Call Me'.text.make(),
                     ]),
                   ).p8(),
+
                   ElevatedButton(
                     onPressed:
                         () => controller.sendWhatsAppMessage(
