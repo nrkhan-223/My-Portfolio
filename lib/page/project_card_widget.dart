@@ -30,7 +30,7 @@ class ProjectCard extends GetView<HomeController> {
             10.heightBox,
             Spacer(),
             HStack([
-              'Check his on play store'.text.semiBold.xl.green400.make(),10.widthBox,
+              'Quick check on play store'.text.semiBold.xl.green400.make(),10.widthBox,
               Icon(FontAwesomeIcons.googlePlay,size: 20, color: Vx.green400),
             ]).onTap(() => controller.launchURL(url)),
           ]).box.padding(EdgeInsets.symmetric(horizontal: 10,vertical: 15)).height(200).make(),
