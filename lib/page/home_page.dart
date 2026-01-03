@@ -153,7 +153,7 @@ class HomePage extends GetView<HomeController> {
                         title: project.title,
                         description: project.description,
                         url: project.url,
-                      ),
+                      ).wFull(context),
                 )
                     .toList(),
               )
